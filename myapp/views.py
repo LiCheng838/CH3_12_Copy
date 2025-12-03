@@ -8,7 +8,7 @@ from django.utils import timezone
 
 def test(request):
 
-    return HttpResponse("Hello World")
+    return HttpResponse("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
 def search_list(request):
     if 'cName' in request.GET:
